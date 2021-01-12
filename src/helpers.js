@@ -34,8 +34,6 @@ module.exports = {
       dataFinalJson.push(finalData);
     }
 
-    console.log(dataFinalJson)
-
     return dataFinalJson;
   }
 }
