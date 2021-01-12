@@ -4,7 +4,8 @@
   "license": "MIT",
   "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "database": "./node_modules/sequelize-cli/lib/sequelize db:migrate && ./node_modules/sequelize-cli/lib/sequelize db:seed:all"
   },
   "devDependencies": {
     "nodemon": "^2.0.7",
